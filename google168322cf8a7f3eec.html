@@ -1,0 +1,146 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html><head>
+<meta name="verify-v1" content="qTu4q7+T0csqfdzMbHLVb8RIcbBQ9icHZ3DvQfILtcY=" />
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=big5">
+<meta http-equiv="refresh" ;="" content="300; url=register/exit.asp">
+<style type="text/css">.txt-13px {
+	FONT-SIZE: 13px; LINE-HEIGHT: 22px
+}
+A:link {
+	COLOR: #003399; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #003388; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #996600; TEXT-DECORATION: underline
+}
+A:active {
+	COLOR: #009900; TEXT-DECORATION: underline
+}
+TD {
+	FONT-SIZE: 12px; COLOR: #666666; FONT-FAMILY: "新細明體", Arial
+}
+.s1 {
+	BORDER-RIGHT: 1px dotted; BORDER-TOP: 1px dotted; BORDER-LEFT: 1px dotted; BORDER-BOTTOM: 1px dotted
+}
+.s2 {
+	FONT-SIZE: 13px; LINE-HEIGHT: 18px; BORDER-BOTTOM: #eeeeee 1px solid
+}
+.style1 {
+	COLOR: #ff6600; LINE-HEIGHT: 18px; BACKGROUND-COLOR: #e8e8e8
+}
+BODY {
+	MARGIN: 0px
+}
+.style6 {
+	COLOR: #ffffff
+}
+.style9 {
+	COLOR: #ff6666
+}
+</style><title>新竹私立仙樂園老人養護中心</title>
+
+<meta http-equiv="Page-Enter" content="blendTrans(Duration=3.0)">
+<meta http-equiv="Page-Exit" content="revealTrans(Duration=5.0,Transition=0)">
+<meta http-equiv="Site-Enter" content="revealTrans(Duration=3.0,Transition=1)">
+<meta http-equiv="Site-Exit" content="revealTrans(Duration=5.0,Transition=23)"> 
+<meta name="keywords" content="仙樂園老人養護中心，荔園山莊，荔園山莊老人養護中心，老人養護中心，安養中心 ">
+<meta name="description" content="仙樂園老人養護中心 歡迎光臨~~目前網站版本為v0.1">
+<meta name="author" content="仙樂園老人養護中心">
+<meta name="copyright" content="本網頁著作權屬仙樂園老人養護中心所有">
+<meta name="robots" content="all">
+</head>
+
+<body bgcolor="#009933" background="371.jpg" tppabs="http://lychee.myweb.hinet.net/371.jpg">
+<Script src="http://app.myweb.hinet.net/counter/citycounter.asp?uid=lychee&style=odometer&width=9"></Script>
+<div id="Layer1" style="position:absolute; left:506px; top:332px; width:207px; height:125px; z-index:1"><a href="frame.html" tppabs="http://lychee.myweb.hinet.net/frame.html"><img src="p008.gif" tppabs="http://lychee.myweb.hinet.net/p008.gif" width="114" height="114" border="0"></a></div>
+<script language=JavaScript> 
+var no =3; 
+var speed = 2.00; 
+var falling = "io9.gif"; 
+
+var ns4up = (document.layers) ? 1 : 0; 
+var ie4up = (document.all) ? 1 : 0; 
+var dx, xp, yp;
+var am, stx, sty; 
+var i, doc_width = 600, doc_height = 800; 
+if (ns4up) { 
+doc_width = self.innerWidth; 
+doc_height = self.innerHeight; 
+} else if (ie4up) { 
+doc_width = document.body.clientWidth; 
+doc_height = document.body.clientHeight; 
+} 
+dx = new Array(); 
+xp = new Array(); 
+yp = new Array(); 
+am = new Array(); 
+stx = new Array(); 
+sty = new Array(); 
+for (i = 0; i < no; ++ i) { 
+dx[i] = 0; 
+xp[i] = Math.random()*(doc_width-50);
+yp[i] = Math.random()*doc_height; 
+am[i] = Math.random()*20;
+stx[i] = 0.02 + Math.random()/10;
+sty[i] = 0.7 + Math.random();
+if (ns4up) {
+if (i == 0) { 
+document.write("<layer name=\"dot"+ i +"\" left=\"20\" top=\"10\" visibility=\"show\"><img src="--" tppabs="http://lychee.myweb.hinet.net/--" + falling + "\" border=\"0\"></layer>"); 
+} else { 
+document.write("<layer name=\"dot"+ i +"\" left=\"20\" top=\"10\" visibility=\"show\"><img src="--" tppabs="http://lychee.myweb.hinet.net/--" + falling + "\" border=\"0\"></layer>"); 
+} 
+} else if (ie4up) { 
+if (i == 0) { 
+document.write("<div id=\"dot"+ i +"\" style=\"POSITION: absolute; Z-INDEX: "+ i +"; VISIBILITY: visible; TOP: 10px; LEFT: 20px;\"><img src="--" tppabs="http://lychee.myweb.hinet.net/--" + falling + "\" border=\"0\"></div>"); 
+} else { 
+document.write("<div id=\"dot"+ i +"\" style=\"POSITION: absolute; Z-INDEX: "+ i +"; VISIBILITY: visible; TOP: 10px; LEFT: 20px;\"><img src="--" tppabs="http://lychee.myweb.hinet.net/--" + falling + "\" border=\"0\"></div>"); 
+} 
+} 
+} 
+function snowNS() {
+for (i = 0; i < no; ++ i) {
+yp[i] += sty[i]; 
+if (yp[i] > doc_height-50) { 
+xp[i] = Math.random()*(doc_width-am[i]-30); 
+yp[i] = 0; 
+stx[i] = 0.02 + Math.random()/10; 
+sty[i] = 0.7 + Math.random(); 
+doc_width = self.innerWidth; 
+doc_height = self.innerHeight; 
+} 
+dx[i] += stx[i]; 
+document.layers["dot"+i].top = yp[i]; 
+document.layers["dot"+i].left = xp[i] + am[i]*Math.sin(dx[i]); 
+} 
+setTimeout("snowNS()", speed); 
+} 
+
+function snowIE() { 
+for (i = 0; i < no; ++ i) {
+yp[i] += sty[i]; 
+if (yp[i] > doc_height-50) { 
+xp[i] = Math.random()*(doc_width-am[i]-30); 
+yp[i] = 0; 
+stx[i] = 0.02 + Math.random()/10; 
+sty[i] = 0.7+ Math.random(); 
+doc_width = document.body.clientWidth; 
+doc_height = document.body.clientHeight; 
+} 
+dx[i] += stx[i]; 
+document.all["dot"+i].style.pixelTop = yp[i]; 
+document.all["dot"+i].style.pixelLeft = xp[i] + am[i]*Math.sin(dx[i]); 
+} 
+setTimeout("snowIE()", speed); 
+} 
+if (ns4up) { 
+snowNS(); 
+} else if (ie4up) { 
+snowIE(); 
+} 
+</script>  
+</body>
+</html>

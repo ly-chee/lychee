@@ -1,0 +1,164 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=big5">
+<style>.spanstyle {
+	COLOR: #0066ff; FONT-FAMILY: Tahoma; FONT-SIZE: 10pt; FONT-WEIGHT: normal; POSITION: absolute; TOP: -50px; VISIBILITY: visible
+}
+</style>
+<base target="_self">
+<bgsound src="tppmsgs/msgs0.htm#1" tppabs="http://lychee.myweb.hinet.net/a31..mid" loop="-1">
+</head>
+<script language="JavaScript"><!-- 
+	var message="☆歡.迎.光.臨.仙.樂.園.老.人.養.護.中.心☆"; 
+	var x,y; 
+	var step=12; 
+	var flag=0; 
+ 
+	message=message.split(""); 
+	var xpos=new Array(); 
+	for (i=0;i<=message.length-1;i++) { 
+		xpos[i]=-50; 
+	} 
+ 
+	var ypos=new Array(); 
+	for (i=0;i<=message.length-1;i++) { 
+		ypos[i]=-50; 
+	} 
+ 
+	function handlerMM(e) { 
+		x = (document.layers) ? e.pageX : document.body.scrollLeft+event.clientX+20; 
+		y = (document.layers) ? e.pageY : document.body.scrollTop+event.clientY; 
+		flag=1; 
+	} 
+ 
+	function makesnake() { 
+		if (flag==1 && document.all) { 
+    			for (i=message.length-1; i>=1; i--) { 
+   				xpos[i]=xpos[i-1]+step; 
+				ypos[i]=ypos[i-1]; 
+    			} 
+			xpos[0]=x+step; 
+			ypos[0]=y; 
+ 
+			for (i=0; i<=message.length-1; i++) { 
+    				var thisspan = eval("span"+(i)+".style"); 
+    				thisspan.posLeft=xpos[i]; 
+				thisspan.posTop=ypos[i]; 
+				thisspan.color=Math.random() * 255 * 255 * 255 + Math.random() * 255 * 255 + Math.random() * 255; 
+    			} 
+		} 
+		else if (flag==1 && document.layers) { 
+    			for (i=message.length-1; i>=1; i--) { 
+   				xpos[i]=xpos[i-1]+step; 
+				ypos[i]=ypos[i-1]; 
+    			} 
+			xpos[0]=x+step; 
+			ypos[0]=y; 
+ 
+			for (i=0; i<message.length-1; i++) { 
+    				var thisspan = eval("document.span"+i); 
+    				thisspan.left=xpos[i]; 
+				thisspan.top=ypos[i]; 
+				thisspan.color=Math.random() * 255 * 255 * 255 + Math.random() * 255 * 255 + Math.random() * 255; 
+			} 
+		} 
+	} 
+// --></script>
+<script language="javascript"> 
+	for (i=0;i<=message.length-1;i++) { 
+    		document.write("<span id='span"+i+"' class='spanstyle'>"); 
+		document.write(message[i]); 
+    		document.write("</span>"); 
+	} 
+ 
+	if (document.layers) { 
+		document.captureEvents(Event.MOUSEMOVE); 
+	} 
+	document.onmousemove = handlerMM; 
+</script>
+<script
+language="javascript"> 
+	function pageonload() { 
+		makesnake(); 
+		window.setTimeout("pageonload();", 2); 
+	} 
+</script>
+
+
+<body onload="javascript:pageonload()" background="bhackpic.jpg" tppabs="http://lychee.myweb.hinet.net/bhackpic.jpg" >
+
+<h3>&nbsp;</h3>
+<h3 align="center"><a href="#1"><img src="pic261.gif" tppabs="http://lychee.myweb.hinet.net/pic261.gif" width="20" height="20">小故事</a></h3>
+<h3 align="center"><a href="#1"><img src="pic261.gif" tppabs="http://lychee.myweb.hinet.net/pic261.gif" width="20" height="20"></a><a href="#2">天堂與地獄</a></h3>
+<h3 align="center"><a href="#1"><img src="pic261.gif" tppabs="http://lychee.myweb.hinet.net/pic261.gif" width="20" height="20"></a><a href="#3">海竽的故事</a></h3>
+<h3 align="center"><a href="#1"><img src="pic261.gif" tppabs="http://lychee.myweb.hinet.net/pic261.gif" width="20" height="20"></a><a href="#4">奇蹟</a></h3>
+<h3 align="center"><a href="#1"><img src="pic261.gif" tppabs="http://lychee.myweb.hinet.net/pic261.gif" width="20" height="20"></a><a href="#5">最快樂的人 
+  </a></h3>
+<h3 align="center">&nbsp;</h3>
+<h3>&nbsp;</h3>
+<h3><font color="#990000"><img src="yyyyyt.gif" tppabs="http://lychee.myweb.hinet.net/yyyyyt.gif" width="23" height="16"><a name="1"></a>小故事</font></h3>
+<p><font face="Times New Roman, Times, serif" color="#990000">深宵駕車回來, 收音機播放盧冠廷的<陪著你走>, 
+  腦海不禁泛起這段故事。 老婆婆的個子不高, 但很胖,走路時需要手杖支持。 每兩個月老公公便伴著老婆婆回來覆診。她患有高血壓。 某夜, 老婆婆左邊身麻痺入院,電腦掃描顯示右腦出血。 
+  我如實告訴老公公, 他沒有作聲, 茫然地看著我,淚光閃動。 出乎意料, 老婆婆的情況不壞, 頭腦清醒。 入院後第五天, 她問我: "這兩日我丈夫怎麼沒有來探我?" 
+  一名紅衣學護悄悄告訴我, 那天老公公心肌梗塞,入了對面的男病房。 兩老沒有孩子,最親的是姪兒。 姪兒帶了兩瓶果汁來醫院, 先探望老公公,再去女病房。 又過了幾天, 
+  老公公的病情剛穩定下來,便嚷著出院照顧老伴。 一輪討價還價後, 主診醫生想出折衷辦法。 老公公換上自己的衣服, 坐進輪椅,由工友推到女病房門口, 醫生跟在一旁以防不測. 
+  他蹣跚地站起來,攜著姪兒送的果汁,走到老伴床邊說: "買給你的。" "這幾天不見你, 病了麼?" 。 "不是," 老公公擠出笑容道: "姪孫結婚,我幫他打點。" 
+  那是我聽過最動人的一個謊話。 人生就像天氣, 可預料, 但往往出人意表。 老公公的心臟一天一天的復元, 正準備出院那天,竟突然惡化, 撒手塵寰。 辦理完死亡證明, 
+  姪兒走到女病房找我,要求暫時別告訴老婆婆, 免她受剌激。 巡房時老婆婆又問: "丈夫帶來的果汁也喝完了,怎麼不見人?" 紅衣學護哄道: "你忘了嗎? 姪孫還有兩天便結婚啦! 
+  老公公挺熱心。" 次天早晨, 我發覺床頭多了一瓶果汁, 小紅衣正向老婆婆說:"老公公剛來過, 但你睡得很沉,他放下果汁就走了。" 小紅衣轉身時發覺我在旁,窘得雙頰比制服更紅。 
+  我微微一笑, 只盼她那顆愛心, 不為歲月冷卻。 當天下午,護士長忽然察覺坐在沙發的老婆婆沒有呼吸, 我迅速跑去一手抱起她, 放上病床急救; 二十分鐘後, 
+  我宣布失敗。 我一邊寫記錄, 一邊想起 <陪著你走> 的歌詞: "如果走到這世界邊端,我倆已是無力前行,跟我一起飛去...... " 護士長走過來說: 
+  "猜不到你那麼大力,一手可抱起她。 " 老婆婆的確很胖, 但很輕,因為她的靈魂已飛走了。" </font></p>
+<p>&nbsp;</p>
+<h3><font color="#990000"><img src="yyyyyt.gif" tppabs="http://lychee.myweb.hinet.net/yyyyyt.gif" width="23" height="16"></font><font face="Times New Roman, Times, serif" color="#990000"><a name="2"></a>天堂與地獄 
+  </font></h3>
+<p><font face="Times New Roman, Times, serif" color="#990000">一位一生行善無數的基督徙，他臨終前有一位天使特地下凡來接引他上天堂。天 
+  使說：「大善人，由於你一生行善，成就很大的功德，因此在你臨終前我可以答應你完成一個你最想完成的願望。」 大善人說：「神聖的天使，謝謝你這麼仁慈。我一生當中最大的遺憾就是：我信奉主一生，卻從來沒見過天堂與地獄究竟長得像什麼樣子？在我死之前，您可不可以帶我到這兩個地方參觀參觀？」 
+  天使說：「沒問題，因為你即將上天堂，因此我先帶你到地獄去吧。」 大善人跟隨天使來到了地獄，在他們面前出現一張很大的餐桌，桌上擺滿了豐盛的佳餚。 「地獄的生活看起來還不錯嘛！並沒有想像中的悲慘嘛！」大善人很疑惑地問天使。 
+  「不用急，你再繼續看下去。」 過了一會，用餐的時間到了，只見一群瘦骨如柴的餓鬼魚貫地入座。每個人手上都拿著一雙長十幾尺的筷子。每個人用盡了各種方法，嘗試用他們手中的筷子去夾菜吃。可是由於筷子實在是太長了，最後每個人都吃不到東西。 
+  「實在是太悲慘了，他們怎麼可以這樣對待這些人呢？給他們食物的誘惑，卻又不給他們吃。」 「你真覺得很悲慘嗎？我再帶你到天堂看看。」 到了天堂，同樣的情景，同樣的滿桌佳餚，每個人同樣也用一雙長十幾尺的長筷子。不同的是，圍著餐桌吃飯的是一群洋溢歡笑，長得白白胖胖的可愛的人們。他們同樣用筷子夾菜，不同的是，他們餵對面的人吃菜。而對方也餵他吃。因此每個人都吃得很愉快。 
+  天堂與地獄的區別在於與人相處的態度。 </font></p>
+<p>&nbsp;</p>
+<h3><font color="#990000"><img src="yyyyyt.gif" tppabs="http://lychee.myweb.hinet.net/yyyyyt.gif" width="23" height="16"></font><font face="Times New Roman, Times, serif" color="#990000"><a name="3"></a>海竽的故事 
+  </font></h3>
+<p><font face="Times New Roman, Times, serif" color="#990000">我喜歡海芋，因為它真的很美。而海芋有個故事，是這樣的...... 
+  有一對老先生與老太太很恩愛，但有一天老先生生病了，沒辦法動了。 老太太都守在他身旁照顧他。 有一天，老太太告訴兒子，她想學開車～～ 兒子很訝異，因為老太太連腳踏車都不會騎。她竟會想學開車。 
+  兒子問了老太太。老太太回答：我想學開車，載你老爸去陽明山看海芋。 因為以前你老爸曾載我去陽明山看海芋，指著海芋說"此情不渝<芋>"～～ 而現在的老太太，也想這樣告訴老先生。 
+  這樣的愛情，讓我覺得好美好美。眼淚竟不知不覺奪眶而出～～～ 愛情是一朵生長在絕壁懸崖邊緣上的花，要想摘取就必須要有勇氣。 莎士比亞說的。 </font></p>
+<p>&nbsp;</p>
+<h3><font color="#990000"><img src="yyyyyt.gif" tppabs="http://lychee.myweb.hinet.net/yyyyyt.gif" width="23" height="16"></font><font face="Times New Roman, Times, serif" color="#990000"><a name="4"></a>奇蹟 
+  </font></h3>
+<p><font face="Times New Roman, Times, serif" color="#990000">凱倫就像每一個好媽媽一樣，當她發現自己懷了孕，就運用各種方法，準備她那三歲 
+  的兒子米凱，接受一個新的親屬。他們發現了，將誕生的寶寶是個女孩。米凱於是日復一日， 夜復一夜地，在媽媽的肚子上，唱歌給自己的小妹妹聽。 凱倫懷孕的過程很正常，她是田納西州Morristown循道會的活躍會員。然後陣痛來 
+  了。每五分鐘......每一分鐘。但在分娩時，出現了障礙。陣痛歷經了數個小時。難道真 需要剖腹生產嗎？終於，米凱的小妹妹誕生了。但她的健康狀況很糟。夜裡她嚎啕不已， 
+  救護車將她送入聖母醫院出生嬰兒的加護病房。日子過的很慢。小妹妹情況愈來愈惡化。 小兒科專家告訴父母：「希望很渺茫，你們要做最壞的打算。」凱倫和她先生聯絡當地 
+  的墓園，為小女孩找了一塊墓地。他們本來在家裡面，為新生嬰兒準備了一個特別的房間 ，現在卻要為她準備葬禮。米凱不斷的要求父母親，讓他看看自己的妹妹。他說： 
+  「我要唱歌給她聽。」 在加護病房的第二週。看來似乎這個週末就是葬禮行將舉行的日子了。米凱一直吵著要 給他妹妹唱歌，但加護病房是從來不允許小孩子進去的。但是凱倫已下訂了決心，不顧 
+  一切反對，都要帶米凱進去。如果他現在不去看他妹妹，可能就再也看不到妹妹活著的 樣子了。 她給他穿上一件超大號的舊西裝，浩浩蕩蕩的走進了加護病房。 他看起來就像一只會走路的大衣箱，但是，護士長認出來他是個小孩子，就大聲嚷著說： 
+  馬上把這個小孩子帶走，小孩子不准進來。」 凱倫的母性權威突然顯露出來，平常態度溫和的她，眼光冷冷的逼視著護士長的臉，神 色堅定不移。「他如果不給他妹妹唱歌，是絕不會離開的。」 
+  凱倫把米凱抱到妹妹的床邊。他注視著這個小嬰兒，在生命的戰鬥中戰敗的樣子。 然後開始唱起歌來。用他三歲純真的聲音，唱著：「You are my sunshine, 
+  my only sunshine, you make me happy when skies are gray....」 突然，小女嬰有反應了。心率變得平穩起來。「米凱，繼續唱。」 
+  「You never know, dear, how much I love you. Please don't take my sunshine away....」 
+  原本艱澀勉強的呼吸，現在變得很平順，像小貓呼吸似的呼呼作響。米凱，繼續唱。」 「The other night, dear, as I lay sleeping, 
+  I dreamed I held you in myarms」 米凱的小妹妹放鬆了，進入安眠，治癒的安眠，陰霾已經一掃而空。米凱，繼續唱。」 淚水征服了跋扈的護士長的臉。凱倫容光煥發。 
+  「You are my sunshine, my onlysunshine. Please don't take my sunshineaway」 葬禮的計畫取消了。隔天，就是那天的次日，小女嬰已經完全好了，可以出院了！ 
+  婦女雜誌稱此為「哥哥的歌唱奇蹟」。醫院的醫生們只說，這是一個奇蹟。凱倫則稱此 為天主愛的奇蹟！ 永遠不要放棄你所愛的人! 請將此故事寄給每一位接觸過你生命的人。 
+  </font></p>
+<p>&nbsp;</p>
+<h3><font color="#990000"><img src="yyyyyt.gif" tppabs="http://lychee.myweb.hinet.net/yyyyyt.gif" width="23" height="16"></font><font face="Times New Roman, Times, serif" color="#990000"><a name="5"></a>最快樂的人</font></h3>
+<p><font face="Times New Roman, Times, serif" color="#990000"> 我們很少去想我們所有的,但是,我們卻常常想到我們所沒有的. 
+  除了那些我們尚未得到的之外,已經擁有的一切,統統變得微不足道,毫不重要了! 就因為我們總是想著那些我們所沒有的,於是,我們變得很不快樂, 心心念念的想著,盼著,完全忘記已經擁有的一切有多豐富.直到有一天, 
+  我們失去了原本擁有而視為當然的那些東西之後 ,我們才恍然大悟,那有多麼珍貴.. 譬如健康,譬如正常, 譬如平安,譬如自由,譬如.....好好 檢視一下你現在擁有的, 
+  你會赫然發現,自己原來是這般的富有!! 當我沮喪時,總喜歡念念這一首小詩: 我心裡難過, 因為我沒有鞋子, 後來我在街上走著 , 遇見一個沒有腳的人. 
+  每當我心裡為某些不如意而難過時,便想想那些比我們不幸的人,沮喪感立即會減低許 多. 人的快樂與不快樂, 全在於懂得珍惜與不知感激.懂得珍惜的人,覺得自己擁有好多, 
+  好幸福...不知感激的人,卻老認為自己有的不夠多.老看見別人碗裡的青菜豆腐, 看不到自己碗裡的大魚大肉.... 世界上最快樂,最幸福的人,是那些懂得惜福的人!在人生道路上,與其費時, 
+  費力的去想那些自己沒有的,不如好好掌握你已經擁有的.別顧著想要更多, 結果,連原來有的也失去了!只要你自己覺得滿足,你就是世界上最富有的人!你說 是嗎? 
+  </font></p>
+
+                                                                                                             
+
+</body>   
+
+   
+</html>   
